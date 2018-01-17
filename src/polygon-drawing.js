@@ -19,7 +19,6 @@ const endPath = (paths, end, setPoint) => {
 const startPaths = (paths, start) => {
   const newPath = () => {
     return {
-      color: [255,255,255,255],
       end: start,
       start
     }
